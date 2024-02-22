@@ -3,7 +3,7 @@ kind: Pod
 metadata:
  name: imagepull
 spec:
- conatiners:
+ containers:
  - name: nginx
    imagePullPolicy: Always
    image: nginx:1.14.2
