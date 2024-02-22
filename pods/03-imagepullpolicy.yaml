@@ -11,7 +11,3 @@ spec:
    ports:
    - containerPort: 80
 
-   #  - ImagePullPolicy
-    # if someone made change in image with same version and push it to the docker hub, it may not sometime fetch the latest changes so 
-	  # if we use the ImagePullPolicy as Always it'll check and fetch the image up to date as safe side
-	
