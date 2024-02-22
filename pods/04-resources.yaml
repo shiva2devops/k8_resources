@@ -7,6 +7,7 @@ spec:
  - name: stress
    image: techworldwithsiva/stress:latest
    imagePullPolicy: Always
+   command: ["sleep","200"]
    resources:
     requests:
       memory: "150Mi"
