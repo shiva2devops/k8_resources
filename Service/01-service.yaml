@@ -4,7 +4,7 @@ kind: Pod
 metadata:
  name: nginx
  labels:
-  name: nginx
+  app.kubernetes.io/name: nginx
 spec:
  containers:
  - name: nginx
@@ -19,7 +19,7 @@ metadata:
   name: nginx-service
 spec:
   selector:
-    name: nginx
+    app.kubernetes.io/name: nginx
   ports:
     - protocol: TCP
       port: 80
