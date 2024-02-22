@@ -5,7 +5,7 @@ metadata:
 spec:
  containers:
  - name: stress
-   image: techworldwithsiva/stress
+   image: techworldwithsiva/stress:latest
    imagePullPolicy: Always
   #  resources:
   #   requests:
