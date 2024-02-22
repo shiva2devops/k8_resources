@@ -7,10 +7,10 @@ spec:
  - name: stress
    image: techworldwithsiva/stress:latest
    imagePullPolicy: Always
-  #  resources:
-  #   requests:
-  #     memory: "150Mi"
-  #     cpu: "250m"
-  #   limits:
-  #     memory: "200Mi"
-  #      cpu: "500m"
+   resources:
+    requests:
+      memory: "150Mi"
+      cpu: "250m"
+    limits:
+      memory: "200Mi"
+       cpu: "500m"
