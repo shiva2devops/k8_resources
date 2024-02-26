@@ -8,8 +8,8 @@ spec:
   containers:
   - name: nginx
     image: nginx
-  # nodeSelector:
-  #   tier: web
+  nodeSelector:
+    tier: web
 
 
 # https://kubernetes.io/docs/tasks/configure-pod-container/assign-pods-nodes
